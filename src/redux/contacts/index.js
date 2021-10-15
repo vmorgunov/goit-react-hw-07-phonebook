@@ -1,5 +1,11 @@
 export { fetchContact, addContact, deleteContact } from './contacts-operation';
-export { getItems, getFilter, getFilteredContacts } from './contacts-selectors';
+export {
+  getItems,
+  getFilter,
+  getFilteredContacts,
+  getIsLoading,
+  getError,
+} from './contacts-selectors';
 export {
   fetchContactRequest,
   fetchContactSuccess,
